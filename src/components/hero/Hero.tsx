@@ -1,5 +1,4 @@
 import Image from "next/image";
-import Link from "next/link";
 
 import HorizontalDots from "./HorizontalDots";
 import VerticalDots from "./VerticalDots";
@@ -7,6 +6,7 @@ import VerticalDots from "./VerticalDots";
 import RoundBg from "./RoundBg";
 import PillionBg from "./PillionBg";
 import Navbar from "../navbar/Nabar";
+import CustomBtn from "../btn/CustomBtn";
 
 const Hero = () => {
   return (
@@ -26,11 +26,7 @@ const Hero = () => {
           </button>
           <h1 className="text-7xl font-bold mb-4">Summer Collection</h1>
           <h4 className="text-4xl font-semibold mb-7">Upto 15% OFF</h4>
-          <Link href="/products">
-            <button className="bg-black text-white text-xl px-8 py-3 rounded-xl font-medium">
-              Shop Now
-            </button>
-          </Link>
+          <CustomBtn linkProp="/products" />
         </div>
         {/* model's Image */}
         <div className="relative w-full h-[93vh]">
