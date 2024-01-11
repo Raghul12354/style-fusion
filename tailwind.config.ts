@@ -17,6 +17,7 @@ const config: Config = {
         'bg_hero': '#EFEAE4',
         'bg_svg': '#071937',
         'custom_red': '#FF2443',
+        'custom_white': '#F3F3F3',
       },
       fontFamily: {
         'poppins': 'Poppins, sans-serif',

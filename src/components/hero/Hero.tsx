@@ -10,7 +10,7 @@ import CustomBtn from "../btn/CustomBtn";
 
 const Hero = () => {
   return (
-    <div className="bg-bg_hero relative h-screen w-full overflow-hidden z-0">
+    <section className="bg-bg_hero relative h-screen w-full overflow-hidden z-0">
       <Image src="/hero/Group.png" alt="" fill={true} className="-z-10" />
       <Navbar />
       {/* side dots */}
@@ -40,7 +40,7 @@ const Hero = () => {
           />
         </div>
       </div>
-    </div>
+    </section>
   );
 };
 

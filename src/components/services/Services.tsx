@@ -7,7 +7,7 @@ import ShippingIcon from "../icons/ShippingIcon";
 
 const Services = () => {
   return (
-    <div className="h-72 w-auto grid grid-cols-4 place-items-center mx-10">
+    <section className="h-72 w-auto grid grid-cols-4 place-items-center mx-10">
       <Item
         title="Free Shipping"
         desc="Lorem ipsum dolor sit amet."
@@ -32,7 +32,7 @@ const Services = () => {
         bgClass="bg_guarantee"
         icons={<Guarantee />}
       />
-    </div>
+    </section>
   );
 };
 
